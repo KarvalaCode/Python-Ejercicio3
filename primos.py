@@ -10,6 +10,7 @@ def es_primo(num):
         for i in range(2,num):
             if num % i ==0:
                 return False
+                break
         return True
 
 #Calcular números primos entre 1 y num añadiéndolos a la lista lista_primos
