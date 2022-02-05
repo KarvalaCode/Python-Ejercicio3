@@ -24,7 +24,7 @@ def main():
     if es_primo(num):
         print(f' {num} es un número primo')
     else:
-        print(f'{num} No es un número primo')
+        print(f'{num} no es un número primo')
     primos(num)
     print(f'Los números primos entre 1 y {num} son: {lista_primos}')
 
